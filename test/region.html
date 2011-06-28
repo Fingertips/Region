@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=768px">
+<title>Region</title>
+<script type="text/javascript" src="../lib/region.js"></script>
+<style>
+html, body {
+  padding: 0;
+  margin: 0;
+  font: 26px/40px "Lucida Grande", arial, sans-serif;
+  background-color: #f4f4f6;
+}
+#container {
+  padding: 52px 0;
+}
+#inner {
+  padding: 26px;
+  text-align: center;
+  width: 600px;
+  margin: 0px auto;
+  background-color: #ddd;
+  border-radius: 12px;
+  text-shadow: 0 1px #fff;
+  -webkit-box-shadow: 0 4px 4px #ccc;
+  -moz-box-shadow: 0 4px 4px #ccc;
+  box-shadow: 0 4px 4px #ccc;
+}
+strong
+{
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+  <div id="container">
+    <div id="inner">
+      Our algorithm thinks you're in <strong><script type="text/javascript">document.write(navigator.region);</script></strong>.
+    </div>
+  </div>
+</body>
+</html>
